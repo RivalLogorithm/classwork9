@@ -1,6 +1,6 @@
 # Лекция 9. Работа в классе
 
-Ссылка для отправки итогового результата: https://docs.google.com/forms/d/e/1FAIpQLSeEZ4cPBSdx37E1qng4rtXXCNlyCoaaq_wUwRhQnxqyKIEy6A/viewform?usp=sf_link
+Ссылка для отправки итогового результата: https://docs.google.com/forms/d/e/1FAIpQLSc7Y7hrsvACnL6XwIl4erfSfelzorvAMMZ0MqcZuQV2OLlMPQ/viewform?usp=sf_link
 
 Результат продемонстрируем 23 марта
 
