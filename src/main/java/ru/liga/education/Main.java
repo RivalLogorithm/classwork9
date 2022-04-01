@@ -55,6 +55,7 @@ public class Main {
 
 		AutomatedSystem.register(fifthTry);
 
+
 		AutomatedSystem.showUniqueMembers(AutomatedSystem.weedOutDeceivers());
 	}
 
