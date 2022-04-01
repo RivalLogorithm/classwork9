@@ -1,19 +1,22 @@
 package ru.liga.education;
 
+import lombok.Getter;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class AutomatedSystem {
-    private static final List<Member> members = new ArrayList<>();
+    @Getter
+    private static List<Member> members = new ArrayList<>();
 
     public static void register(Member member) {
         System.out.println(member.getEyeColor() + " " + member.getHairColor());
         members.add(member);
     }
 
-    public static List<Member> weedOutDeceivers() {
+    public static void weedOutDeceivers() {
         List<Member> newMembers = new ArrayList<>();
         boolean notUnique;
         for (int i=0; i< members.size()-1; i++) {
@@ -38,16 +41,18 @@ public class AutomatedSystem {
                     System.out.println(" added");
                 }
             }
-            System.out.println();
         }
-
-        return newMembers;
+        members = newMembers;
     }
 
-    public static void showUniqueMembers(List<Member> members) {
+    public static void showUniqueMembers() {
         System.out.println(members.size());
         for (Member member : members) {
             System.out.println(member);
         }
+    }
+
+    public static void moneyPrize(Member member) {
+
     }
 }

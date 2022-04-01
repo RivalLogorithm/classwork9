@@ -55,8 +55,15 @@ public class Main {
 
 		AutomatedSystem.register(fifthTry);
 
+		System.out.println("Before weed out");
+		for (Member member : AutomatedSystem.getMembers()) {
+			System.out.println(member);
+		}
+		System.out.println();
 
-		AutomatedSystem.showUniqueMembers(AutomatedSystem.weedOutDeceivers());
+		AutomatedSystem.weedOutDeceivers();
+		System.out.println("After weed out");
+		AutomatedSystem.showUniqueMembers();
 	}
 
 }
